@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Pub Chirro</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles_1907.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                Pub Chirro
+            </div>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="carta.html">Carta</a></li>
+					<li><a href="/liga_futbolin/index.html">Torneo Futbolín</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+                <div class="burger">
+                    <div class="line1"></div>
+                    <div class="line2"></div>
+                    <div class="line3"></div>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section id="contacto">
+            <h1>Contacto</h1>
+            <div class="contact-icons">
+                <div>
+                    <a href="tel:+34625603201"><i class="fas fa-phone"></i> 625 60 32 01</a>
+                </div>
+                <div>
+                    <a href="https://wa.me/34625603201"><i class="fab fa-whatsapp"></i> 625 60 32 01</a>
+                </div>
+                <div>
+                    <a href="https://www.instagram.com/pubchirro"><i class="fab fa-instagram"></i> @pub_chirro</a>
+                </div>
+            </div>
+            <div class="contact-content">
+                <div class="left-column">
+                    <h2>Dirección</h2>
+                    <p>c/ Córdoba 36, Cuevas de San Marcos, Málaga</p>
+                </div>
+                <div class="right-column">
+                    <h2>Reseñas</h2>
+                    <div class="reviews">
+                        <!-- Reseñas reales de Google se mostrarán aquí -->
+                    </div>
+                    <button onclick="window.location.href='https://g.page/r/CR1aZj91KogWEBM/review'">Dejar una valoración</button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>625 60 32 01</p>
+        <p>© Pub Chirro 2024</p>
+        <p>Horario: Jue 18:00 - 22:00 | Vie 18:00 - 03:00 | Sáb 18:00 - 03:00 | Dom 18:00 - 22:00</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script src="script_2009.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+    <script>
+        const apiKey = 'TU_CLAVE_API_DE_GOOGLE';  // Reemplaza con tu clave API
+        const placeId = 'ChIJN1t_tDeuEmsRUsoyG83frY4';  // Reemplaza con el ID del lugar de tu pub
+
+        fetch(`https://maps.googleapis.com/maps/api/place/details/json?place_id=${placeId}&key=${apiKey}`)
+            .then(response => response.json())
+            .then(data => {
+                const reviews = data.result.reviews;
+                const reviewsContainer = document.querySelector('.reviews');
+                reviews.forEach(review => {
+                    const reviewElement = document.createElement('p');
+                    reviewElement.textContent = review.text;
+                    reviewsContainer.appendChild(reviewElement);
+                });
+            })
+            .catch(error => console.error('Error fetching reviews:', error));
+    </script>
+</body>
+</html>

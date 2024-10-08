@@ -1,0 +1,87 @@
+[
+	{
+	  "name": "1906 (La Milnueve) 6.5 º",
+	  "description": "Una cerveza lager española de carácter suave y equilibrado, con notas sutiles de malta y lúpulo.",
+	  "price": "2.50 €",
+	  "image": "img/1906.png",
+	  "active": true
+	},
+	{
+	  "name": "Águila dorada 5.5 º",
+	  "description": "Una cerveza lager española de cuerpo ligero y refrescante, ideal para cualquier ocasión.",
+	  "price": "2.50 €",
+	  "image": "img/aguila_dorada.png",
+	  "active": false
+	},
+	{
+	  "name": "Alhambra 1925 6.4 º",
+	  "description": "Una cerveza lager española de alta calidad, con un carácter robusto y un ligero toque amargo.",
+	  "price": "2.50 €",
+	  "image": "img/alhambra_1925.png",
+	  "active": true
+	},
+	{
+	  "name": "Alhambra Especial 5.4 º",
+	  "description": "Una cerveza lager dorada, suave y refrescante, con matices de malta y un sutil aroma a lúpulo.",
+	  "price": "2.50 €",
+	  "image": "img/alhambra_especial.png",
+	  "active": true
+	},
+	{
+	  "name": "Corona 4.5 º",
+	  "description": "Una cerveza mexicana ligera y refrescante, conocida por su suave sabor a malta y toques cítricos.",
+	  "price": "2.50 €",
+	  "image": "img/corona.png",
+	  "active": true
+	},
+	{
+	  "name": "Estrella Primera generación 4.7 º",
+	  "description": "Una cerveza lager especial que celebra el origen de Estrella Galicia, con un cuerpo más intenso, sabor maltoso y un ligero amargor.",
+	  "price": "2.50 €",
+	  "image": "img/estrella_primera_generacion.png",
+	  "active": true
+	},
+	{
+	  "name": "Paulaner 5.5 º",
+	  "description": "Una cerveza de trigo alemana, turbia y dorada, con aromas a plátano y clavo, y un sabor refrescante y especiado.",
+	  "price": "3.50 €",
+	  "image": "img/paulaner.png",
+	  "active": true
+	},
+	{
+	  "name": "Heineken 5.0 º",
+	  "description": "Una cerveza lager holandesa reconocida mundialmente, con un sabor equilibrado, notas de malta y un ligero amargor.",
+	  "price": "2.50 €",
+	  "image": "img/heineken.png",
+	  "active": true
+	},
+	{
+	  "name": "Guinness 5.0 º",
+	  "description": "Una icónica cerveza negra irlandesa con sabores a malta tostada, notas de café y chocolate, y una textura suave y cremosa.",
+	  "price": "3.00 €",
+	  "image": "img/guiness.png",
+	  "active": true
+	},
+	{
+	  "name": "18/70 (La Rubia) 6.2 º",
+	  "description": "Una cerveza lager de estilo clásico, caracterizada por su sabor equilibrado y suave, con notas de malta y un final ligeramente amargo.",
+	  "price": "2.50 €",
+	  "image": "img/1870.png",
+	  "active": true
+	},
+	{
+	  "name": "Águila sin filtrar 5.5 º",
+	  "description": "Una cerveza española sin filtrar, con cuerpo y sabor intenso, destacando sus matices de malta y lúpulo fresco.",
+	  "price": "2.50 €",
+	  "image": "img/aguila_sin_filtrar.png",
+	  "active": true
+	},
+	{
+	  "name": "Salitos Blue 5.0 º",
+	  "description": "Una cerveza con un toque de tequila, caracterizada por su sabor suave y afrutado, con notas cítricas y un refrescante color azul.",
+	  "price": "3.00 €",
+	  "image": "img/salitos_blue.jpg",
+	  "active": true
+	}
+  ]
+  

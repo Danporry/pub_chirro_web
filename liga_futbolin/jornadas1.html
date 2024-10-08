@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornadas 1º División</title>
+    <link rel="stylesheet" href="styles3009.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Pub Chirro</a>
+            <div class="navbar-menu">
+                <a href="/index.html">Inicio</a>
+                <div class="dropdown">
+                    <a href="#">Clasificación</a>
+                    <div class="dropdown-content">
+                        <a href="clasificacion1.html">1º División</a>
+                        <a href="clasificacion2.html">2º División</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Jornadas</a>
+                    <div class="dropdown-content">
+                        <a href="jornadas1.html">1º División</a>
+                        <a href="jornadas2.html">2º División</a>
+                    </div>
+                </div>
+                <a href="reglamento.html">Reglamento</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Jornadas 1º División</h1>
+        </div>
+    </header>
+
+    <section class="container">
+        <table id="jornadas1">
+            <thead>
+                <tr>
+                    <th>Jornada</th>
+                    <th>Equipo 1</th>
+                    <th>Equipo 2</th>
+                    <th>Resultado</th>
+					
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Aquí se cargarán los datos del CSV -->
+            </tbody>
+        </table>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pub Chirro. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        fetch('docs/jornadas1.csv')
+            .then(response => response.text())
+            .then(data => {
+                const rows = data.split('\n');
+                const tableBody = document.getElementById('jornadas1').getElementsByTagName('tbody')[0];
+                rows.forEach(row => {
+                    const cols = row.split(',');
+                    const tr = document.createElement('tr');
+                    cols.forEach(col => {
+                        const td = document.createElement('td');
+                        td.textContent = col;
+                        tr.appendChild(td);
+                    });
+                    tableBody.appendChild(tr);
+                });
+            });
+    </script>
+</body>
+</html>
