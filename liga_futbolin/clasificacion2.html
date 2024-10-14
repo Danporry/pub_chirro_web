@@ -44,9 +44,9 @@
                     <th>Posición</th>
                     <th>Equipo</th>
                     <th>Puntos</th>
-					<th>Ganados</th>
-					<th>Perdidos</th>
-					<th>Empatados</th>
+					<th>Gan.</th>
+					<th>Per.</th>
+					<th>Emp.</th>
 					<th>Dif.</th>
                 </tr>
             </thead>
@@ -64,7 +64,7 @@
 
     <script src="script.js"></script>
     <script>
-        fetch('docs/clasificacion2.csv')
+        fetch('docs/clasificacion2_1410.csv')
             .then(response => response.text())
             .then(data => {
                 const rows = data.split('\n');
