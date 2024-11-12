@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Clasificación 2º División</title>
+    <title>Clasificación 1º División</title>
     <link rel="stylesheet" href="styles3009.css">
 </head>
 <body>
@@ -20,6 +20,13 @@
                     </div>
                 </div>
                 <div class="dropdown">
+                    <a href="#">Equipos</a>
+                    <div class="dropdown-content">
+                        <a href="equipos.html">1º División</a>
+                        <a href="equipos2.html">2º División</a>
+                    </div>
+                </div>
+                <div class="dropdown">
                     <a href="#">Jornadas</a>
                     <div class="dropdown-content">
                         <a href="jornadas1.html">1º División</a>
@@ -31,34 +38,36 @@
         </div>
     </nav>
 
-    <header class="hero">
-        <div class="container">
-            <h1>Clasificación 2º División</h1>
-        </div>
-    </header>
-
     <section class="container">
-        <table id="clasificacion2">
-            <thead>
-                <tr>
-                    <th>Posición</th>
-                    <th>Equipo</th>
-                    <th>Puntos</th>
-					<th>Gan.</th>
-					<th>Per.</th>
-					<th>Emp.</th>
-					<th>Dif.</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Aquí se cargarán los datos del CSV -->
-            </tbody>
-        </table>
+        <div class="clasificacion-isla">
+            <div class="clasificacion-header">
+                <h2>Clasificación Segunda División</h2>
+            </div>
+            <div class="tabla-container">
+                <table class="clasificacion-tabla">
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th class="equipo-column">Equipo</th>
+                            <th>Pts</th>
+                            <th>G</th>
+                            <th>P</th>
+                            <th>E</th>
+                            <th>DG</th>
+                        </tr>
+                    </thead>
+                    <tbody id="clasificacion-body">
+                        <!-- Los datos se cargarán aquí dinámicamente -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </section>
 
     <footer class="footer">
         <div class="container">
             <p>&copy; 2024 Pub Chirro. Todos los derechos reservados.</p>
+			
         </div>
     </footer>
 
@@ -68,7 +77,7 @@
             .then(response => response.text())
             .then(data => {
                 const rows = data.split('\n');
-                const tableBody = document.getElementById('clasificacion2').getElementsByTagName('tbody')[0];
+                const tableBody = document.getElementById('clasificacion-body');
                 rows.forEach(row => {
                     const cols = row.split(',');
                     const tr = document.createElement('tr');

@@ -202,3 +202,275 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
     background-color: #222;
 }
+/* ... código CSS existente ... */
+
+/* Estilos específicos para equipos.html */
+.equipos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.equipo-card {
+    background-color: #1a1a1a;
+    border: 1px solid #c1ef5f;
+    border-radius: 8px;
+    padding: 20px;
+    color: #c1ef5f;
+}
+
+.equipo-card h2 {
+    text-align: center;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #c1ef5f;
+    padding-bottom: 10px;
+}
+
+.equipo-jornada {
+    margin: 10px 0;
+    padding: 8px;
+    background-color: #141414;
+    border-radius: 4px;
+}
+
+.equipo-jornada-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.equipo-resultado {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.equipo-rival {
+    font-size: 0.9em;
+}
+
+.equipos-nav {
+    margin: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+}
+
+.equipo-nav-btn {
+    font-weight: bold;
+    padding: 8px 16px;
+    background-color: #c1ef5f;
+    border: 2px solid #ffffff;
+    border-radius: 4px;
+    color: #141414;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.equipo-nav-btn:hover {
+    background-color: #141414;
+    color: #c1ef5f;
+}
+
+.equipo-card {
+    scroll-margin-top: 100px; /* Ajusta este valor según el tamaño de tu navbar */
+}
+
+/* Estilos específicos para jornadas.html */
+.jornadas-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.jornada-isla {
+    background: #141414;
+    border: 1px solid #c1ef5f;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+}
+
+.jornada-header {
+    background: #1a1a1a;
+    color: #c1ef5f;
+    padding: 1rem;
+    text-align: center;
+}
+
+.jornada-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.partidos-lista {
+    padding: 1rem;
+}
+
+.partido {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+    border-bottom: 1px solid #c1ef5f;
+}
+
+.partido:last-child {
+    border-bottom: none;
+}
+
+.equipo {
+    color: #c1ef5f;
+    font-size: 0.9rem;
+}
+
+.equipo.local {
+    text-align: right;
+}
+
+.equipo.visitante {
+    text-align: left;
+}
+
+.resultado {
+    font-weight: bold;
+    padding: 0.25rem 0.5rem;
+    background: #1a1a1a;
+    border-radius: 4px;
+    min-width: 60px;
+    text-align: center;
+}
+
+.errores-container {
+    background: #fff3cd;
+    border: 1px solid #ffeeba;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.error-header {
+    color: #856404;
+    margin-bottom: 1rem;
+}
+
+.error-header h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.error-item {
+    background: #fff;
+    border-left: 4px solid #ffc107;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1rem;
+}
+
+.error-item p {
+    margin: 0.25rem 0;
+    color: #666;
+}
+
+.error-item p:first-child {
+    font-weight: bold;
+    color: #333;
+}
+
+.clasificacion-isla {
+    background: #1a1a1a;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    overflow: hidden;
+    margin: 2rem auto;
+    max-width: 900px;
+}
+
+.clasificacion-header {
+    background: #141414;
+    color: #c1ef5f;
+    padding: 1rem;
+    text-align: center;
+}
+
+.clasificacion-header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.tabla-container {
+    padding: 1rem;
+    overflow-x: auto;
+}
+
+.clasificacion-tabla {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.95rem;
+}
+
+.clasificacion-tabla th,
+.clasificacion-tabla td {
+    padding: 0.75rem;
+    text-align: center;
+    border-bottom: 1px solid #c1ef5f;
+}
+
+.clasificacion-tabla th {
+    font-weight: 600;
+    background-color: #141414;
+    color: #c1ef5f;
+}
+
+.clasificacion-tabla tr:last-child td {
+    border-bottom: none;
+}
+
+.clasificacion-tabla tr:hover {
+    background-color: #141414;
+}
+
+/* Columnas específicas */
+.pos-column {
+    width: 50px;
+    min-width: 50px;
+}
+
+.equipo-column {
+    text-align: left;
+    min-width: 200px;
+    width: 40%;
+}
+
+.stats-column {
+    width: 60px;
+    min-width: 60px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .clasificacion-tabla {
+        font-size: 0.85rem;
+    }
+
+    .clasificacion-tabla th,
+    .clasificacion-tabla td {
+        padding: 0.5rem;
+    }
+
+    .pos-column {
+        width: 40px;
+        min-width: 40px;
+    }
+
+    .equipo-column {
+        min-width: 150px;
+    }
+
+    .stats-column {
+        width: 50px;
+        min-width: 50px;
+    }
+}

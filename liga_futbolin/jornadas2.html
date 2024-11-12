@@ -20,6 +20,13 @@
                     </div>
                 </div>
                 <div class="dropdown">
+                    <a href="#">Equipos</a>
+                    <div class="dropdown-content">
+                        <a href="equipos.html">1º División</a>
+                        <a href="equipos2.html">2º División</a>
+                    </div>
+                </div>
+                <div class="dropdown">
                     <a href="#">Jornadas</a>
                     <div class="dropdown-content">
                         <a href="jornadas1.html">1º División</a>
@@ -38,44 +45,123 @@
     </header>
 
     <section class="container">
-        <table id="jornadas2">
-            <thead>
-                <tr>
-                    <th>Jornada</th>
-                    <th>Equipo Local</th>
-                    <th>Equipo Visitante</th>
-                    <th>Resultado</th>
-                </tr>
-            </thead>
-            <tbody>
-                <!-- Aquí se cargarán los datos del CSV -->
-            </tbody>
-        </table>
+        <div id="jornadas-container" class="jornadas-grid">
+            <!-- Aquí se cargarán las jornadas dinámicamente -->
+        </div>
     </section>
 
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2023 Liga de Fútbolin. Todos los derechos reservados.</p>
+            <p>&copy; 2024 Pub Chirro. Todos los derechos reservados.</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
     <script>
-        fetch('docs/jornadas2_1410.csv')
-            .then(response => response.text())
+        fetch('docs/equipos2.json')
+            .then(response => response.json())
             .then(data => {
-                const rows = data.split('\n');
-                const tableBody = document.getElementById('jornadas2').getElementsByTagName('tbody')[0];
-                rows.forEach(row => {
-                    const cols = row.split(',');
-                    const tr = document.createElement('tr');
-                    cols.forEach(col => {
-                        const td = document.createElement('td');
-                        td.textContent = col;
-                        tr.appendChild(td);
-                    });
-                    tableBody.appendChild(tr);
+                const jornadasContainer = document.getElementById('jornadas-container');
+                const partidos = new Map(); // Para evitar duplicados
+                const errores = []; // Array para almacenar errores
+
+                // Procesar cada equipo y sus partidos
+                for (const [equipo, jornadas] of Object.entries(data)) {
+                    for (const [jornada, partido] of Object.entries(jornadas)) {
+                        const numJornada = jornada.split('_')[1];
+                        // Crear una clave única ordenando los equipos alfabéticamente
+                        const equiposOrdenados = [equipo, partido.rival].sort();
+                        const key = `${numJornada}-${equiposOrdenados.join('-')}`;
+                        
+                        if (!partidos.has(key)) {
+                            partidos.set(key, {
+                                jornada: numJornada,
+                                local: equipo,
+                                visitante: partido.rival,
+                                resultado: partido.resultado,
+                                resultadoRival: null // Almacenaremos aquí el resultado del rival
+                            });
+                        } else {
+                            // Verificar que los resultados coincidan
+                            const partidoExistente = partidos.get(key);
+                            const [goles1, goles2] = partido.resultado.split('-').map(g => g.trim());
+                            const [golesExistente1, golesExistente2] = partidoExistente.resultado.split('-').map(g => g.trim());
+
+                            // Si el equipo actual es el visitante, invertimos los goles para la comparación
+                            const resultadoCoincide = equipo === partidoExistente.visitante 
+                                ? goles1 === golesExistente2 && goles2 === golesExistente1
+                                : goles1 === golesExistente1 && goles2 === golesExistente2;
+
+                            if (!resultadoCoincide) {
+                                errores.push({
+                                    jornada: numJornada,
+                                    equipo1: partidoExistente.local,
+                                    equipo2: partidoExistente.visitante,
+                                    resultado1: partidoExistente.resultado,
+                                    resultado2: partido.resultado
+                                });
+                            }
+                        }
+                    }
+                }
+
+                // Si hay errores, mostrarlos en la parte superior
+                if (errores.length > 0) {
+                    const erroresDiv = document.createElement('div');
+                    erroresDiv.classList.add('errores-container');
+                    erroresDiv.innerHTML = `
+                        <div class="error-header">
+                            <h3>⚠️ Se encontraron inconsistencias en los siguientes partidos:</h3>
+                        </div>
+                        ${errores.map(error => `
+                            <div class="error-item">
+                                <p>Jornada ${error.jornada}: ${error.equipo1} vs ${error.equipo2}</p>
+                                <p>Resultados diferentes reportados: ${error.resultado1} y ${error.resultado2}</p>
+                            </div>
+                        `).join('')}
+                    `;
+                    jornadasContainer.insertBefore(erroresDiv, jornadasContainer.firstChild);
+                }
+
+                // Agrupar partidos por jornada
+                const jornadasMap = new Map();
+                partidos.forEach(partido => {
+                    if (!jornadasMap.has(partido.jornada)) {
+                        jornadasMap.set(partido.jornada, []);
+                    }
+                    jornadasMap.get(partido.jornada).push(partido);
                 });
+
+                // Ordenar las jornadas numéricamente
+                const jornadasOrdenadas = Array.from(jornadasMap.keys()).sort((a, b) => parseInt(a) - parseInt(b));
+
+                // Crear las jornadas dinámicamente
+                jornadasOrdenadas.forEach(jornada => {
+                    const jornadaDiv = document.createElement('div');
+                    jornadaDiv.classList.add('jornada-isla');
+                    
+                    const partidos = jornadasMap.get(jornada);
+                    
+                    jornadaDiv.innerHTML = `
+                        <div class="jornada-header">
+                            <h2>Jornada ${jornada}</h2>
+                        </div>
+                        <div class="partidos-lista">
+                            ${partidos.map(partido => `
+                                <div class="partido">
+                                    <div class="equipo local">${partido.local}</div>
+                                    <div class="resultado">${partido.resultado}</div>
+                                    <div class="equipo visitante">${partido.visitante}</div>
+                                </div>
+                            `).join('')}
+                        </div>
+                    `;
+                    
+                    jornadasContainer.appendChild(jornadaDiv);
+                });
+            })
+            .catch(error => {
+                console.error('Error cargando los datos:', error);
+                jornadasContainer.innerHTML = '<p>Error al cargar los datos de las jornadas</p>';
             });
     </script>
 </body>

@@ -1,0 +1,466 @@
+{
+  "Martín - Rafa Rute": {
+    "jornada_1": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "3-1"
+    },
+    "jornada_2": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "4-0"
+    },
+    "jornada_3": {
+      "rival": "Alba - Eva",
+      "resultado": "2-2"
+    },
+    "jornada_4": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "4-0"
+    },
+    "jornada_5": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "3-1"
+    },
+    "jornada_6": {
+      "rival": "Eugenia - Carla",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Alba - Eva",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-0"
+    },
+    "jornada_12": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "0-0"
+    },
+    "jornada_13": {
+      "rival": "Eugenia - Carla",
+      "resultado": "0-0"
+    },
+    "jornada_14": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-0"
+    }
+  },
+  "Carlitos - Juanfran": {
+    "jornada_1": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "1-3"
+    },
+    "jornada_2": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-4"
+    },
+    "jornada_3": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "2-2"
+    },
+    "jornada_4": {
+      "rival": "Alba - Eva",
+      "resultado": "3-1"
+    },
+    "jornada_5": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-4"
+    },
+    "jornada_6": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "3-1"
+    },
+    "jornada_7": {
+      "rival": "Eugenia - Carla",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Alba - Eva",
+      "resultado": "0-0"
+    },
+    "jornada_12": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-0"
+    },
+    "jornada_13": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "2-2"
+    },
+    "jornada_14": {
+      "rival": "Eugenia - Carla",
+      "resultado": "0-0"
+    }
+  },
+  "Eugenia - Carla": {
+    "jornada_1": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "0-4"
+    },
+    "jornada_2": {
+      "rival": "Alba - Eva",
+      "resultado": "2-2"
+    },
+    "jornada_3": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-4"
+    },
+    "jornada_4": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "2-2"
+    },
+    "jornada_5": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-4"
+    },
+    "jornada_6": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Alba - Eva",
+      "resultado": "0-4"
+    },
+    "jornada_10": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "0-0"
+    },
+    "jornada_12": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-0"
+    },
+    "jornada_13": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    },
+    "jornada_14": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "0-0"
+    }
+  },
+  "Francisco G. - Iker L.": {
+    "jornada_1": {
+      "rival": "Eugenia - Carla",
+      "resultado": "4-0"
+    },
+    "jornada_2": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-4"
+    },
+    "jornada_3": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "2-2"
+    },
+    "jornada_4": {
+      "rival": "Aidan - Néstor",
+      "resultado": "1-3"
+    },
+    "jornada_5": {
+      "rival": "Alba - Eva",
+      "resultado": "3-1"
+    },
+    "jornada_6": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "1-3"
+    },
+    "jornada_7": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "2-2"
+    },
+    "jornada_8": {
+      "rival": "Eugenia - Carla",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-0"
+    },
+    "jornada_12": {
+      "rival": "Alba - Eva",
+      "resultado": "0-0"
+    },
+    "jornada_13": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-0"
+    },
+    "jornada_14": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "0-0"
+    }
+  },
+  "Aidan - Néstor": {
+    "jornada_1": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "1-3"
+    },
+    "jornada_2": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "4-0"
+    },
+    "jornada_3": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "3-1"
+    },
+    "jornada_4": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "3-1"
+    },
+    "jornada_5": {
+      "rival": "Eugenia - Carla",
+      "resultado": "4-0"
+    },
+    "jornada_6": {
+      "rival": "Alba - Eva",
+      "resultado": "3-1"
+    },
+    "jornada_7": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "0-0"
+    },
+    "jornada_12": {
+      "rival": "Eugenia - Carla",
+      "resultado": "0-0"
+    },
+    "jornada_13": {
+      "rival": "Alba - Eva",
+      "resultado": "0-0"
+    },
+    "jornada_14": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    }
+  },
+  "Zacarías - Manolo P.": {
+    "jornada_1": {
+      "rival": "Aidan - Néstor",
+      "resultado": "3-1"
+    },
+    "jornada_2": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "3-1"
+    },
+    "jornada_3": {
+      "rival": "Eugenia - Carla",
+      "resultado": "4-0"
+    },
+    "jornada_4": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-4"
+    },
+    "jornada_5": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "4-0"
+    },
+    "jornada_6": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "3-1"
+    },
+    "jornada_7": {
+      "rival": "Alba - Eva",
+      "resultado": "3-1"
+    },
+    "jornada_8": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Eugenia - Carla",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    },
+    "jornada_12": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "0-0"
+    },
+    "jornada_13": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "0-0"
+    },
+    "jornada_14": {
+      "rival": "Alba - Eva",
+      "resultado": "0-0"
+    }
+  },
+  "Juanfri - Álvaro": {
+    "jornada_1": {
+      "rival": "Alba - Eva",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "1-3"
+    },
+    "jornada_3": {
+      "rival": "Aidan - Néstor",
+      "resultado": "1-3"
+    },
+    "jornada_4": {
+      "rival": "Eugenia - Carla",
+      "resultado": "2-2"
+    },
+    "jornada_5": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "1-3"
+    },
+    "jornada_6": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "1-3"
+    },
+    "jornada_7": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "2-2"
+    },
+    "jornada_8": {
+      "rival": "Alba - Eva",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Eugenia - Carla",
+      "resultado": "0-0"
+    },
+    "jornada_12": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    },
+    "jornada_13": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "2-2"
+    },
+    "jornada_14": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "0-0"
+    }
+  },
+  "Alba - Eva": {
+    "jornada_1": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Eugenia - Carla",
+      "resultado": "2-2"
+    },
+    "jornada_3": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "2-2"
+    },
+    "jornada_4": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "1-3"
+    },
+    "jornada_5": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "1-3"
+    },
+    "jornada_6": {
+      "rival": "Aidan - Néstor",
+      "resultado": "1-3"
+    },
+    "jornada_7": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "1-3"
+    },
+    "jornada_8": {
+      "rival": "Juanfri - Álvaro",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Eugenia - Carla",
+      "resultado": "4-0"
+    },
+    "jornada_10": {
+      "rival": "Martín - Rafa Rute",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Carlitos - Juanfran",
+      "resultado": "0-0"
+    },
+    "jornada_12": {
+      "rival": "Francisco G. - Iker L.",
+      "resultado": "0-0"
+    },
+    "jornada_13": {
+      "rival": "Aidan - Néstor",
+      "resultado": "0-0"
+    },
+    "jornada_14": {
+      "rival": "Zacarías - Manolo P.",
+      "resultado": "0-0"
+    }
+  }
+} 

@@ -1,0 +1,554 @@
+{
+  "Manolo C. - Ángel V.": {
+    "jornada_1": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "3-1"
+    },
+    "jornada_2": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "1-3"
+    },
+    "jornada_3": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "1-3"
+    },
+    "jornada_4": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "2-2"
+    },
+    "jornada_5": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "1-3"
+    },
+    "jornada_6": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Vafre - Fausto",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "0-0"
+    }
+  },
+  "Isco B. - Manuel B.": {
+    "jornada_1": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "1-3"
+    },
+    "jornada_2": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "0-4"
+    },
+    "jornada_3": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "0-4"
+    },
+    "jornada_4": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "0-4"
+    },
+    "jornada_5": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "1-3"
+    },
+    "jornada_6": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "1-3"
+    },
+    "jornada_8": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "1-3"
+    },
+    "jornada_11": {
+      "rival": "Vafre - Fausto",
+      "resultado": "0-0"
+    }
+  },
+  "Juanjo T. - Jose M.": {
+    "jornada_1": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "3-1"
+    },
+    "jornada_3": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "1-3"
+    },
+    "jornada_4": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "3-1"
+    },
+    "jornada_5": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "3-1"
+    },
+    "jornada_6": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "2-2"
+    },
+    "jornada_7": {
+      "rival": "Vafre - Fausto",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "0-4"
+    },
+    "jornada_11": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "0-0"
+    }
+  },
+  "Dani P. - Pedro B.": {
+    "jornada_1": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "0-4"
+    },
+    "jornada_3": {
+      "rival": "Vafre - Fausto",
+      "resultado": "4-0"
+    },
+    "jornada_4": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "2-2"
+    },
+    "jornada_5": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "3-1"
+    },
+    "jornada_6": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "1-3"
+    },
+    "jornada_8": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "0-0"
+    }
+  },
+  "Adrián G. - Sergio M.": {
+    "jornada_1": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "1-3"
+    },
+    "jornada_3": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "0-4"
+    },
+    "jornada_4": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "1-3"
+    },
+    "jornada_5": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "2-2"
+    },
+    "jornada_6": {
+      "rival": "Vafre - Fausto",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "0-0"
+    }
+  },
+  "Jose S. - Dani C.": {
+    "jornada_1": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "1-3"
+    },
+    "jornada_3": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "0-4"
+    },
+    "jornada_4": {
+      "rival": "Vafre - Fausto",
+      "resultado": "2-2"
+    },
+    "jornada_5": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "3-1"
+    },
+    "jornada_6": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "0-0"
+    }
+  },
+  "Guaiyo - Pedro R.": {
+    "jornada_1": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "4-0"
+    },
+    "jornada_3": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "4-0"
+    },
+    "jornada_4": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "2-2"
+    },
+    "jornada_5": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "1-3"
+    },
+    "jornada_6": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "0-4"
+    },
+    "jornada_7": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Vafre - Fausto",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "0-0"
+    }
+  },
+  "Pedrín - A. J.": {
+    "jornada_1": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "3-1"
+    },
+    "jornada_3": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "3-1"
+    },
+    "jornada_4": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "1-3"
+    },
+    "jornada_5": {
+      "rival": "Vafre - Fausto",
+      "resultado": "0-0"
+    },
+    "jornada_6": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "3-1"
+    },
+    "jornada_8": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "2-2"
+    },
+    "jornada_9": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "0-0"
+    }
+  },
+  "Vafre - Fausto": {
+    "jornada_1": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "1-3"
+    },
+    "jornada_2": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "2-2"
+    },
+    "jornada_3": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "0-4"
+    },
+    "jornada_4": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "2-2"
+    },
+    "jornada_5": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "0-0"
+    },
+    "jornada_6": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "0-0"
+    }
+  },
+  "Rafa A. - Javi C.": {
+    "jornada_1": {
+      "rival": "Vafre - Fausto",
+      "resultado": "3-1"
+    },
+    "jornada_2": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "3-1"
+    },
+    "jornada_3": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "4-0"
+    },
+    "jornada_4": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "2-2"
+    },
+    "jornada_5": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "2-2"
+    },
+    "jornada_6": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "0-0"
+    },
+    "jornada_7": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "2-2"
+    },
+    "jornada_9": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "4-0"
+    },
+    "jornada_11": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "0-0"
+    }
+  },
+  "Frasco C. - Miguelito": {
+    "jornada_1": {
+      "rival": "Juan T. - Chelos",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "4-0"
+    },
+    "jornada_3": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "4-0"
+    },
+    "jornada_4": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "3-1"
+    },
+    "jornada_5": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "2-2"
+    },
+    "jornada_6": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "2-2"
+    },
+    "jornada_7": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "0-0"
+    },
+    "jornada_8": {
+      "rival": "Vafre - Fausto",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "3-1"
+    },
+    "jornada_11": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "0-0"
+    }
+  },
+  "Juan T. - Chelos": {
+    "jornada_1": {
+      "rival": "Frasco C. - Miguelito",
+      "resultado": "2-2"
+    },
+    "jornada_2": {
+      "rival": "Vafre - Fausto",
+      "resultado": "2-2"
+    },
+    "jornada_3": {
+      "rival": "Manolo C. - Ángel V.",
+      "resultado": "3-1"
+    },
+    "jornada_4": {
+      "rival": "Isco B. - Manuel B.",
+      "resultado": "4-0"
+    },
+    "jornada_5": {
+      "rival": "Rafa A. - Javi C.",
+      "resultado": "2-2"
+    },
+    "jornada_6": {
+      "rival": "Guaiyo - Pedro R.",
+      "resultado": "4-0"
+    },
+    "jornada_7": {
+      "rival": "Dani P. - Pedro B.",
+      "resultado": "3-1"
+    },
+    "jornada_8": {
+      "rival": "Jose S. - Dani C.",
+      "resultado": "0-0"
+    },
+    "jornada_9": {
+      "rival": "Pedrín - A. J.",
+      "resultado": "0-0"
+    },
+    "jornada_10": {
+      "rival": "Adrián G. - Sergio M.",
+      "resultado": "0-0"
+    },
+    "jornada_11": {
+      "rival": "Juanjo T. - Jose M.",
+      "resultado": "0-0"
+    }
+  }
+} 

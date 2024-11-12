@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Equipos - Liga de Fútbolin</title>
+    <link rel="stylesheet" href="styles3009.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <a class="navbar-brand" href="/index.html">Pub Chirro</a>
+            <div class="navbar-menu">
+                <a href="/index.html">Inicio</a>
+                <div class="dropdown">
+                    <a href="#">Clasificación</a>
+                    <div class="dropdown-content">
+                        <a href="clasificacion1.html">1º División</a>
+                        <a href="clasificacion2.html">2º División</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Equipos</a>
+                    <div class="dropdown-content">
+                        <a href="equipos.html">1º División</a>
+                        <a href="equipos2.html">2º División</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <a href="#">Jornadas</a>
+                    <div class="dropdown-content">
+                        <a href="jornadas1.html">1º División</a>
+                        <a href="jornadas2.html">2º División</a>
+                    </div>
+                </div>
+                <a href="reglamento.html">Reglamento</a>
+            </div>
+        </div>
+    </nav>
+
+    <header class="hero">
+        <div class="container">
+            <h1>Equipos y Resultados</h1>
+            <p>Consulta todos los resultados por equipo</p>
+            <div class="equipos-nav" id="equipos-nav">
+                <!-- Los botones se cargarán aquí dinámicamente -->
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="equipos-grid" id="equipos-container">
+            <!-- Los equipos se cargarán aquí dinámicamente -->
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Pub Chirro. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        async function cargarEquipos() {
+            try {
+                const response = await fetch('docs/equipos2.json');
+                const datos = await response.json();
+                const container = document.getElementById('equipos-container');
+                const nav = document.getElementById('equipos-nav');
+
+                // Crear botones de navegación
+                for (const equipo of Object.keys(datos)) {
+                    const button = document.createElement('button');
+                    button.className = 'equipo-nav-btn';
+                    button.textContent = equipo;
+                    button.onclick = () => {
+                        document.getElementById(equipo.replace(/\s+/g, '-')).scrollIntoView({ behavior: 'smooth' });
+                    };
+                    nav.appendChild(button);
+                }
+
+                for (const [equipo, jornadas] of Object.entries(datos)) {
+                    const equipoCard = document.createElement('div');
+                    equipoCard.className = 'equipo-card';
+                    equipoCard.id = equipo.replace(/\s+/g, '-');
+                    
+                    let contenidoHTML = `<h2>${equipo}</h2>`;
+                    
+                    for (const [jornada, info] of Object.entries(jornadas)) {
+                        // Convertir jornada_X a "Jornada X"
+                        const jornadaNum = jornada.split('_')[1];
+                        const jornadaTexto = `Jornada ${jornadaNum}`;
+                        
+                        contenidoHTML += `
+                            <div class="equipo-jornada">
+                                <div class="equipo-jornada-info">
+                                    <span class="equipo-rival">${jornadaTexto}: ${info.rival}</span>
+                                    <span class="equipo-resultado">${info.resultado}</span>
+                                </div>
+                            </div>
+                        `;
+                    }
+                    
+                    equipoCard.innerHTML = contenidoHTML;
+                    container.appendChild(equipoCard);
+                }
+            } catch (error) {
+                console.error('Error al cargar los equipos:', error);
+            }
+        }
+
+        document.addEventListener('DOMContentLoaded', cargarEquipos);
+    </script>
+</body>
+</html> 
