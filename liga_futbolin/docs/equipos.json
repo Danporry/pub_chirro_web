@@ -38,11 +38,11 @@
     },
     "jornada_10": {
       "rival": "Vafre - Fausto",
-      "resultado": "0-0"
+      "resultado": "1-3"
     },
     "jornada_11": {
       "rival": "Guaiyo - Pedro R.",
-      "resultado": "0-0"
+      "resultado": "2-2"
     }
   },
   "Isco B. - Manuel B.": {
@@ -134,7 +134,7 @@
     },
     "jornada_11": {
       "rival": "Juan T. - Chelos",
-      "resultado": "0-0"
+      "resultado": "1-3"
     }
   },
   "Dani P. - Pedro B.": {
@@ -272,7 +272,7 @@
     },
     "jornada_11": {
       "rival": "Pedrín - A. J.",
-      "resultado": "0-0"
+      "resultado": "1-3"
     }
   },
   "Guaiyo - Pedro R.": {
@@ -318,7 +318,7 @@
     },
     "jornada_11": {
       "rival": "Manolo C. - Ángel V.",
-      "resultado": "0-0"
+      "resultado": "2-2"
     }
   },
   "Pedrín - A. J.": {
@@ -340,7 +340,7 @@
     },
     "jornada_5": {
       "rival": "Vafre - Fausto",
-      "resultado": "0-0"
+      "resultado": "1-3"
     },
     "jornada_6": {
       "rival": "Manolo C. - Ángel V.",
@@ -364,7 +364,7 @@
     },
     "jornada_11": {
       "rival": "Jose S. - Dani C.",
-      "resultado": "0-0"
+      "resultado": "3-1"
     }
   },
   "Vafre - Fausto": {
@@ -386,7 +386,7 @@
     },
     "jornada_5": {
       "rival": "Pedrín - A. J.",
-      "resultado": "0-0"
+      "resultado": "3-1"
     },
     "jornada_6": {
       "rival": "Adrián G. - Sergio M.",
@@ -406,7 +406,7 @@
     },
     "jornada_10": {
       "rival": "Manolo C. - Ángel V.",
-      "resultado": "0-0"
+      "resultado": "3-1"
     },
     "jornada_11": {
       "rival": "Isco B. - Manuel B.",
@@ -456,7 +456,7 @@
     },
     "jornada_11": {
       "rival": "Frasco C. - Miguelito",
-      "resultado": "0-0"
+      "resultado": "4-0"
     }
   },
   "Frasco C. - Miguelito": {
@@ -502,7 +502,7 @@
     },
     "jornada_11": {
       "rival": "Rafa A. - Javi C.",
-      "resultado": "0-0"
+      "resultado": "0-4"
     }
   },
   "Juan T. - Chelos": {
@@ -548,7 +548,7 @@
     },
     "jornada_11": {
       "rival": "Juanjo T. - Jose M.",
-      "resultado": "0-0"
+      "resultado": "3-1"
     }
   }
 } 
